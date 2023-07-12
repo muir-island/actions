@@ -2,7 +2,7 @@ name: Trivy Scan Image
 on:
   workflow_call:
     inputs:
-      images:
+      image:
         description: Image to Scan
         required: true
         type: string
